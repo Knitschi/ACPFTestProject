@@ -4,3 +4,9 @@
 [submodule "Sources/CPFBuildscripts"]
 	path = Sources/CPFBuildscripts
 	url = ssh://admin@datenbunker:/share/GitRepositories/CPFBuildscripts.git
+[submodule "Sources/APackage"]
+	path = Sources/APackage
+	url = ssh://admin@datenbunker:/share/GitRepositories/APackage.git
+[submodule "Sources/BPackage"]
+	path = Sources/BPackage
+	url = ssh://admin@datenbunker:/share/GitRepositories/BPackage.git
