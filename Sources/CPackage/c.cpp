@@ -9,6 +9,3 @@ namespace c
 }
 namespace{} 
 
-
-
-
