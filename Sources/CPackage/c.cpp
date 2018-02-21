@@ -8,15 +8,4 @@ namespace c
     }
 }
 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
-" " 
+ECHO ist eingeschaltet (ON).
