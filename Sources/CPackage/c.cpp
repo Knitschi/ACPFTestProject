@@ -7,11 +7,4 @@ namespace c
         
     }
 }
-
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
-ECHO ist eingeschaltet (ON).
+{} 
