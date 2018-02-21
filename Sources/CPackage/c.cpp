@@ -8,5 +8,3 @@ namespace c
     }
 }
 namespace{} 
-
-
