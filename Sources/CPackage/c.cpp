@@ -7,6 +7,3 @@ namespace c
         
     }
 }
-namespace{} 
-
-namespace{} 
