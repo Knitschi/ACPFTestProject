@@ -7,4 +7,4 @@ namespace c
         
     }
 }
-int a = 0; (void)a;
+int a = 0; a++;
