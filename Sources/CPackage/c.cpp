@@ -7,9 +7,4 @@ namespace c
         
     }
 }
-
-; 
-; 
-; 
-; 
-; 
+int a = 0; (void)a;
