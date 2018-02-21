@@ -7,4 +7,6 @@ namespace c
         
     }
 }
-int a = 0; a++;
+
+namespace {}
+
