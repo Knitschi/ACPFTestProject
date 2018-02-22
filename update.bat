@@ -1,5 +1,5 @@
 git pull
-git submodule update
+git submodule update --remote --merge
 
 :: Tags
 pushd Sources\APackage
