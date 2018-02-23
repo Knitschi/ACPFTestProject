@@ -34,3 +34,5 @@ pushd Sources\GPackage
 echo namespace{} >> function.cpp
 git commit . -m"dummy edit"
 popd
+
+git commit . -m"update packages"
