@@ -28,12 +28,16 @@
 [submodule "Sources/DPackage"]
 	path = Sources/DPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/DPackage.git
+	branch = master
 [submodule "Sources/EPackage"]
 	path = Sources/EPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/EPackage.git
+	branch = master
 [submodule "Sources/FPackage"]
 	path = Sources/FPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/FPackage.git
+	branch = master
 [submodule "Sources/GPackage"]
 	path = Sources/GPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/GPackage.git
+	branch = master
