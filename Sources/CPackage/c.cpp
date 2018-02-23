@@ -8,14 +8,3 @@ namespace c
     }
 }
 
-
-
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
-namespace{} 
