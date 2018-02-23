@@ -25,3 +25,9 @@
 	path = Sources/CPFJenkinsjob
 	url = ssh://admin@datenbunker:/share/GitRepositories/CPFJenkinsjob.git
 	branch = master
+[submodule "Sources/DPackage"]
+	path = Sources/DPackage
+	url = ssh://admin@datenbunker:/share/GitRepositories/DPackage.git
+[submodule "Sources/EPackage"]
+	path = Sources/EPackage
+	url = ssh://admin@datenbunker:/share/GitRepositories/EPackage.git
