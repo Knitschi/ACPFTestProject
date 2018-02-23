@@ -11,11 +11,11 @@ set( longDescription "" )
 
 
 set( PACKAGE_PUBLIC_HEADER
-    c.h
+	function.h
 )
 
 set( PACKAGE_PRODUCTION_FILES
-	c.cpp
+	function.cpp
 )
 
 set(PACKAGE_FIXTURE_FILES
