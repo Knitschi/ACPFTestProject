@@ -17,6 +17,8 @@ set( externalPackages
 	CPFBuildscripts
 	CPFJenkinsjob
 	BPackage
+	FPackage 
+	GPackage
 )
 
 set( globalFiles
