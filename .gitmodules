@@ -17,10 +17,6 @@
 [submodule "Sources/cotire"]
 	path = Sources/cotire
 	url = https://github.com/Knitschi/cotire.git
-[submodule "Sources/CPFJenkinsjob"]
-	path = Sources/CPFJenkinsjob
-	url = ssh://admin@datenbunker:/share/GitRepositories/CPFJenkinsjob.git
-	branch = master
 [submodule "Sources/DPackage"]
 	path = Sources/DPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/DPackage.git
@@ -37,3 +33,6 @@
 	path = Sources/GPackage
 	url = ssh://admin@datenbunker:/share/GitRepositories/GPackage.git
 	branch = master
+[submodule "Sources/CPFMachines"]
+	path = Sources/CPFMachines
+	url = ssh://admin@datenbunker:/share/GitRepositories/CPFMachines.git
