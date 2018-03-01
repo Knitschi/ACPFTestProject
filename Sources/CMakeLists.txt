@@ -15,7 +15,6 @@ set( externalPackages
 	cotire
 	CPFCMake
 	CPFBuildscripts
-	CPFJenkinsjob
 	BPackage
 	FPackage 
 	GPackage
