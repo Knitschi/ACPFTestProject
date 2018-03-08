@@ -36,3 +36,6 @@
 [submodule "Sources/CPFMachines"]
 	path = Sources/CPFMachines
 	url = ssh://admin@datenbunker:/share/GitRepositories/CPFMachines.git
+[submodule "Sources/libSwitchWarningsOff"]
+	path = Sources/libSwitchWarningsOff
+	url = ssh://admin@datenbunker:/share/GitRepositories/libSwitchWarningsOff.git

@@ -22,12 +22,15 @@ set(PACKAGE_FIXTURE_FILES
 )
 	
 set( PACKAGE_TEST_FILES
+	Tests/function_tests.cpp
 )
 
 set(PACKAGE_LINKED_LIBRARIES
+	libSwitchWarningsOff
 )
 
 set(PACKAGE_LINKED_TEST_LIBRARIES
+	GMock::gmock
 )
 
 set( archiveDevPackageOptions
