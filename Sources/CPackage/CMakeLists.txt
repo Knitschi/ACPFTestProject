@@ -30,7 +30,7 @@ set(PACKAGE_LINKED_LIBRARIES
 )
 
 set(PACKAGE_LINKED_TEST_LIBRARIES
-	GMock::gmock
+	GMock::main
 )
 
 set( archiveDevPackageOptions
