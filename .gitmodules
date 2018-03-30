@@ -33,9 +33,6 @@
 	path = Sources/GPackage
 	url = https://github.com/Knitschi/GPackage.git
 	branch = master
-[submodule "Sources/CPFMachines"]
-	path = Sources/CPFMachines
-	url = https://github.com/Knitschi/CPFMachines.git
 [submodule "Sources/libSwitchWarningsOff"]
 	path = Sources/libSwitchWarningsOff
 	url = https://github.com/Knitschi/libSwitchWarningsOff.git
