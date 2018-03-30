@@ -3,6 +3,22 @@
 
 The project demonstrates the use of the <a href="https://github.com/Knitschi/CMakeProjectFramework"><b>CMakeProjectFramework</b></a>.
 
+The repository *owns* some packages.
+
+- APackage (A *loose* C++ command line application package)
+- CPackage (A *fixed* C++ library package)
+- DPackage (A *loose* C++ library package)
+- EPackage (A *loose* C++ library package)
+
+The repository uses some external packages.
+
+- CPFCMake (CMake package, owned by the CMakeProjectFramework)
+- CPFBuildscripts (Python package, owned by the CMakeProjectFramework)
+- BPackage (C++ package, owned by <a href="https://github.com/Knitschi/BCPFTestProject"><b>BCPFTestProject</b></a>)
+- FPackage (C++ package, owned by BCPFTestProject)
+- GPackage (C++ package, owned by BCPFTestProject)
+
+All C++ packages contain only *Hello World* functionality.
 
 # Target Dependency Graph #
 

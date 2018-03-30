@@ -39,7 +39,6 @@ set( externalPackages
 	cmake
 	CPFCMake
 	CPFBuildscripts
-	CPFMachines
 	BPackage
 	FPackage 
 	GPackage
