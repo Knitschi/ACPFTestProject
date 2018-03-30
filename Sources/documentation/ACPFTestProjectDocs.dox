@@ -1,0 +1,24 @@
+/**
+\mainpage The ACPFTestProject CI-Project
+
+The project demonstrates the use of the <a href="https://github.com/Knitschi/CMakeProjectFramework"><b>CMakeProjectFramework</b></a>.
+
+
+# Target Dependency Graph #
+
+The CPF configures CMake to generate the dependency graph of the projects binary targets. This graph visualizes
+the *levelization* of your libraries and is used by the static analysis to prevent circular dependencies between
+your libraries. Two versions of the dependency graph of your project are generated. The first contains all direct
+and indirect dependencies, but does not display test targets. The second is the transitive reduced version of
+the first graph which removes direct dependencies from the graph if an indirect dependency already exists. 
+This helps with reducing visual clutter in the graph.
+
+Here is an example how you can add the two graphs to your documentation.
+
+\dotfile CPFDependencies.dot "Target dependency graph with all dependencies"
+
+<br/>
+
+\dotfile CPFDependenciesTransitiveReduced.dot "Transitive reduced target dependency graph"
+
+*/

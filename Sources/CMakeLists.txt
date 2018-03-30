@@ -46,7 +46,7 @@ set( externalPackages
 )
 
 set( globalFiles
-
+	documentation/ACPFTestProjectDocs.dox
 )
 
 cpfAddPackages( "${externalPackages}" "${globalFiles}")
