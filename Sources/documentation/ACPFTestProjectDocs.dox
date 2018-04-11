@@ -20,6 +20,10 @@ The repository uses some external packages.
 
 All C++ packages contain only *Hello World* functionality.
 
+# Links #
+
+- <a href="http://knitschi.feste-ip.net:35105/job/ACPFTestProject-0.0.0/"><b>CI console output last build</b></a>
+
 # Target Dependency Graph #
 
 The CPF configures CMake to generate the dependency graph of the projects binary targets. This graph visualizes
