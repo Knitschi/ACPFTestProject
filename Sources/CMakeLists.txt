@@ -1,7 +1,7 @@
 # Root CMakeLists file for the "CMakeProjectFramework"
 cmake_minimum_required (VERSION 3.8.0) 
 
-include("CPFCMake/Functions/cpfInit.cmake")
+include("CPFCMake/Functions/cpfAddPackages.cmake")
 include("${CMAKE_TOOLCHAIN_FILE}")					# make sure the compiler is set before the project call
 include("cmake/Hunter/HunterGate.cmake") 
 
@@ -25,27 +25,10 @@ HunterGate(
 
 ##################################### CREATE PROJECT ########################################
 project(ACPFTestProject)
-cpfInit()
 
 ##################################### DEPENDENCIES ########################################
 hunter_add_package(GTest)
 find_package(GMock 1.8.0 CONFIG REQUIRED gmock main)
 
 ####################################### ADD Packages #############################################
-add_subdirectory(libSwitchWarningsOff)
-
-set( externalPackages
-	cotire
-	cmake
-	CPFCMake
-	CPFBuildscripts
-	BPackage
-	FPackage 
-	GPackage
-)
-
-set( globalFiles
-	documentation/ACPFTestProjectDocs.dox
-)
-
-cpfAddPackages( "${externalPackages}" "${globalFiles}")
+cpfAddPackages()
