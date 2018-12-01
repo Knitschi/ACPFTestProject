@@ -1,9 +1,8 @@
-# Root CMakeLists file for the "CMakeProjectFramework"
-cmake_minimum_required (VERSION 3.8.0) 
-
-include("CPFCMake/Functions/cpfAddPackages.cmake")
-include("${CMAKE_TOOLCHAIN_FILE}")					# make sure the compiler is set before the project call
+# Root CMakeLists file for the ACPFTestProject
 include("cmake/Hunter/HunterGate.cmake") 
+include("CPFCMake/cpfInit.cmake")
+
+cmake_minimum_required(VERSION ${CPF_MINIMUM_CMAKE_VERSION}) 
 
 
 ##################### Initialize Hunter Package Manager ######################

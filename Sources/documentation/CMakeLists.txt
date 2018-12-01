@@ -2,7 +2,7 @@
 include(cpfInitPackageProject)
 include(cpfAddDoxygenPackage)
 
-cpfInitPackageProject(docs)
+cpfInitPackageProject()
 
 set( sources
     ACPFTestProjectDocs.dox
