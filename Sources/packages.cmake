@@ -4,12 +4,12 @@ set( CPF_PACKAGES
 	EXTERNAL CPFCMake
     EXTERNAL CPFBuildscripts
     EXTERNAL libSwitchWarningsOff
-	EXTERNAL BPackage
+	EXTERNAL STATIC BPackage
 	EXTERNAL FPackage 
 	EXTERNAL GPackage
     OWNED CPackage
     OWNED DPackage
-    OWNED EPackage
-    OWNED APackage
+    OWNED SHARED EPackage
+    OWNED STATIC APackage
     OWNED documentation
 )
