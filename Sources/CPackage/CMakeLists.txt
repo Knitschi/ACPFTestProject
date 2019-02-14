@@ -29,7 +29,7 @@ set( PACKAGE_TEST_FILES
 )
 
 set(PACKAGE_LINKED_LIBRARIES
-	libSwitchWarningsOff
+	swo::libSwitchWarningsOff
 )
 
 set(PACKAGE_LINKED_TEST_LIBRARIES
