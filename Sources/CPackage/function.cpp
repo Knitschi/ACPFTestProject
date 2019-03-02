@@ -1,9 +1,5 @@
 #include <CPackage/function.h>
 
-namespace c
-{
-    void function()
-    {
-        
-    }
+namespace c {
+void function() {}
 }
