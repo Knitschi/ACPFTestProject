@@ -9,7 +9,7 @@
     {
       "name": "Ninja",
       "cacheRoot": "C:\\dev\\ACPFTestProject\\Generated\\Ninja",
-      "inheritEnvironments": ["msvc_x64"],
+      "inheritEnvironments": [ "msvc_x64" ],
       "cacheGenerationCommand": "cmake -H\"C:/dev/ACPFTestProject/Sources\" -B\"C:/dev/ACPFTestProject/Generated/Ninja\" --graphviz=\"C:/dev/ACPFTestProject/Generated/Ninja/CPFDependencies.dot\" --preset Ninja"
     }
   ]

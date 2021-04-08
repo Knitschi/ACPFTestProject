@@ -18,6 +18,7 @@
         "CMAKE_INSTALL_PREFIX": "${sourceDir}/../install",
         "CMAKE_MINSIZEREL_POSTFIX": "-minsizerel",
         "CMAKE_RELWITHDEBINFO_POSTFIX": "-relwithdebinfo",
+        "CMAKE_DEBUG_POSTFIX": "-debug",
         "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/CPFCMake/DefaultConfigurations/MSVC2019.cmake",
         "CMAKE_VERBOSE_MAKEFILE": "OFF",
         "COTIRE_VERBOSE": "OFF",
@@ -52,8 +53,9 @@
       "displayName": "Ninja Config",
       "description": "Default Ninja generator",
       "generator": "Ninja",
-	    "cacheVariables": {
-        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/CPFCMake/DefaultConfigurations/ClangCl.cmake"
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/CPFCMake/DefaultConfigurations/ClangCl.cmake",
+        "CMAKE_BUILD_TYPE": "Debug"
       }
     }
   ],
