@@ -1,0 +1,79 @@
+{
+  "version": 2,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 20,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "default",
+      "displayName": "Default Config",
+      "description": "Default build using Visual Studio generator",
+      "generator": "Visual Studio 16 2019",
+      "binaryDir": "${sourceDir}/build/default",
+      "cacheVariables": {
+        "CPF_CONFIG": "default",
+        "BUILD_SHARED_LIBS": "ON",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/../install",
+        "CMAKE_MINSIZEREL_POSTFIX": "-minsizerel",
+        "CMAKE_RELWITHDEBINFO_POSTFIX": "-relwithdebinfo",
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/CPFCMake/DefaultConfigurations/MSVC2019.cmake",
+        "CMAKE_VERBOSE_MAKEFILE": "OFF",
+        "COTIRE_VERBOSE": "OFF",
+        "CPF_CLANG_FORMAT_EXE": "clang-format",
+        "CPF_ENABLE_ABI_API_COMPATIBILITY_REPORT_TARGETS": "OFF",
+        "CPF_ENABLE_ABI_API_STABILITY_CHECK_TARGETS": "OFF",
+        "CPF_ENABLE_ACYCLIC_TARGET": "ON",
+        "CPF_ENABLE_CLANG_FORMAT_TARGETS": "ON",
+        "CPF_ENABLE_CLANG_TIDY_TARGET": "ON",
+        "CPF_ENABLE_DEPENDENCY_NAMES_HEADER_GENERATION": "OFF",
+        "CPF_ENABLE_OPENCPPCOVERAGE_TARGET": "ON",
+        "CPF_ENABLE_PACKAGE_DOX_FILE_GENERATION": "OFF",
+        "CPF_ENABLE_PRECOMPILED_HEADER": "OFF",
+        "CPF_ENABLE_RUN_TESTS_TARGET": "ON",
+        "CPF_ENABLE_VALGRIND_TARGET": "ON",
+        "CPF_ENABLE_VERSION_RC_FILE_GENERATION": "ON",
+        "CPF_HAS_GOOGLE_TEST_EXE": "TRUE",
+        "CPF_TEST_FILES_DIR": "C:/Temp/BuildCPFAssistant_tests",
+        "CPF_VERBOSE": "OFF",
+        "CPF_WEBPAGE_URL": "http://buildmasterdebian9:8082",
+        "CPF_WEBSERVER_BASE_DIR": ""
+      },
+      "vendor": {
+        "example.com/ExampleIDE/1.0": {
+          "autoFormat": true
+        }
+      }
+    },
+    {
+      "name": "Ninja",
+      "inherits": "default",
+      "displayName": "Ninja Config",
+      "description": "Default Ninja generator",
+      "generator": "Ninja",
+	    "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/CPFCMake/DefaultConfigurations/ClangCl.cmake"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "default",
+      "configurePreset": "default"
+    }
+  ],
+  "testPresets": [
+    {
+      "name": "default",
+      "configurePreset": "default",
+      "output": {"outputOnFailure": true},
+      "execution": {"noTestsAction": "error", "stopOnFailure": true}
+    }
+  ],
+  "vendor": {
+    "example.com/ExampleIDE/1.0": {
+      "autoFormat": false
+    }
+  }
+}

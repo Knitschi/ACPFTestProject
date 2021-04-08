@@ -1,0 +1,16 @@
+{
+  "configurations": [
+    {
+      "name": "default",
+      "cacheRoot": "C:\\dev\\ACPFTestProject\\Generated\\default",
+      "inheritEnvironments": [],
+      "cacheGenerationCommand": "cmake -H\"C:/dev/ACPFTestProject/Sources\" -B\"C:/dev/ACPFTestProject/Generated/default\" --graphviz=\"C:/dev/ACPFTestProject/Generated/default/CPFDependencies.dot\" --preset default"
+    },
+    {
+      "name": "Ninja",
+      "cacheRoot": "C:\\dev\\ACPFTestProject\\Generated\\Ninja",
+      "inheritEnvironments": ["msvc_x64"],
+      "cacheGenerationCommand": "cmake -H\"C:/dev/ACPFTestProject/Sources\" -B\"C:/dev/ACPFTestProject/Generated/Ninja\" --graphviz=\"C:/dev/ACPFTestProject/Generated/Ninja/CPFDependencies.dot\" --preset Ninja"
+    }
+  ]
+}

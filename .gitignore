@@ -8,3 +8,8 @@ Configuration
 3_Make.py
 /testBuildResultUpdate.bat
 /install
+/3_Generate.py
+/4_Make.py
+/1_Configure.py
+/2_GetDependencies.py
+/Sources/.vs
