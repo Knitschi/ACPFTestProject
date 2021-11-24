@@ -1,11 +1,14 @@
-include(cpfInitPackageProject)
-include(cpfAddCppPackage)
+include(cpfPackageProject)
+include(cpfAddCppPackageComponent)
 
-cpfInitPackageProject()
-
-set( briefDescription "A C++ libary used for testing the CPF" )
-set( longDescription "" )
-
+cpfPackageProject(
+	BRIEF_DESCRIPTION						"A C++ libary used for testing the CPF"
+	TARGET_NAMESPACE 						c
+	COMPONENTS SINGLE_COMPONENT
+	DISTRIBUTION_PACKAGES
+		DISTRIBUTION_PACKAGE_CONTENT_TYPE 	CT_DEVELOPER
+		DISTRIBUTION_PACKAGE_FORMATS 		7Z
+)
 
 set( PACKAGE_PUBLIC_HEADER
 	function.h
@@ -31,14 +34,8 @@ set(PACKAGE_LINKED_LIBRARIES
 	swo::libSwitchWarningsOff
 )
 
-set( archiveDevPackageOptions
-	DISTRIBUTION_PACKAGE_CONTENT_TYPE 	CT_DEVELOPER
-	DISTRIBUTION_PACKAGE_FORMATS 		7Z
-)
-
 ############################################## Add Package #################################
-cpfAddCppPackage( 
-	PACKAGE_NAMESPACE		c
+cpfAddCppPackageComponent( 
 	TYPE					LIB
 	BRIEF_DESCRIPTION		${briefDescription}
 	LONG_DESCRIPTION		${longDescription}
@@ -48,6 +45,5 @@ cpfAddCppPackage(
 	FIXTURE_FILES			${PACKAGE_FIXTURE_FILES}
 	TEST_FILES				${PACKAGE_TEST_FILES}
 	LINKED_LIBRARIES		${PACKAGE_LINKED_LIBRARIES}
-	DISTRIBUTION_PACKAGES 	${archiveDevPackageOptions}
 	ENABLE_PACKAGE_DOX_FILE_GENERATION TRUE
 )
