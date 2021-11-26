@@ -5,6 +5,9 @@ include(cpfAddDoxygenPackageComponent)
 cpfPackageProject(
     TARGET_NAMESPACE    doc
     COMPONENTS 		    SINGLE_COMPONENT
+	DISTRIBUTION_PACKAGES
+		DISTRIBUTION_PACKAGE_CONTENT_TYPE 	CT_DOCUMENTATION
+		DISTRIBUTION_PACKAGE_FORMATS 		7Z
 )
 
 set( sources
@@ -18,4 +21,4 @@ cpfAddDoxygenPackageComponent(
     DOXYGEN_STYLESHEET_FILE "${CMAKE_CURRENT_SOURCE_DIR}/DoxygenStylesheet.css"
 )
 
-finalizePackageProject()
+cpfFinalizePackageProject()
