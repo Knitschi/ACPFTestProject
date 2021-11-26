@@ -47,3 +47,5 @@ cpfAddCppPackageComponent(
 	LINKED_LIBRARIES		${PACKAGE_LINKED_LIBRARIES}
 	ENABLE_PACKAGE_DOX_FILE_GENERATION TRUE
 )
+
+finalizePackageProject()
