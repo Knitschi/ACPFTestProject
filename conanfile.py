@@ -7,7 +7,7 @@ class ACPFTestProject(ConanFile):
     description = "A package that is created by the ACPFTestProject repository."
 
     # Dependencies
-    python_requires = "CPFConanfile/0.0.16@knitschi/development",
+    python_requires = "CPFConanfile/0.0.20@knitschi/development",
     python_requires_extend = "CPFConanfile.CPFBaseConanfile",
 
     cpf_conanfile_module = None
