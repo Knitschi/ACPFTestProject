@@ -4,7 +4,7 @@ set( CPF_PACKAGES
     EXTERNAL CPFBuildscripts
     EXTERNAL libSwitchWarningsOff
 	EXTERNAL BPackage
-	EXTERNAL GPackage
+	EXTERNAL FPackage
     OWNED CPackage
     OWNED DPackage
     OWNED EPackage
