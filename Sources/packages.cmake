@@ -1,5 +1,6 @@
 set( CPF_PACKAGES 
 	EXTERNAL cotire
+    EXTERNAL CIBuildConfigurations
 	EXTERNAL CPFCMake
     EXTERNAL CPFBuildscripts
     EXTERNAL libSwitchWarningsOff
